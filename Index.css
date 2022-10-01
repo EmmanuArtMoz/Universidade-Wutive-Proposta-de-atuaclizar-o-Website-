@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+
+       align-items: none;
+       list-style: none;
+}
+body{
+    background-color: rgb(252, 239, 222);
+}
+/*menu bar de logotipo*/
+.header0{
+    background: rgb(255, 96, 96);
+    width: 100%;
+    height: 90px;  
+}
+.logo{
+  
+    width: 350px;
+    height: 90px;
+}
+   /*MENU BAR PARA LOGO*/
+.header1{
+    background: rgb(255, 96, 96);
+    width: 100%;
+    height: 60px;
+    }
+
+
+
+    ul{
+        list-style: none;
+        background: #22438c;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+        display: block;
+        padding: 20px 25px;
+        color: #fff;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+    ul li ul.dropdown {
+       width: 100%;
+       background: #22438c;
+       position: absolute;
+       z-index: 999;
+       display: none;
+    }
+    ul li a:hover{
+        background: #112c66;
+
+    }
+    ul li:hover ul.dropdown{
+        display: block;
+    }
+    .part{
+        width: 100%;
+        height: 150vh;
+        background-color: rgb(255, 255, 255);
+    }
+    /* icon */
+    .fa-solid{
+ 
+        margin-top: 3%;
+        margin-left: 47%;
+        font-size: 65px;
+       color: rgb(7, 83, 155);;
+    
+    }
+    .titulo2{
+
+        margin-left: 35%;
+        font-size: 25px;
+        color: rgb(8, 93, 173);;
+    }
+    .texto2{
+        margin-top: 2%;
+            margin-left: 9%;
+            font-size:18px;
+            color: rgb(0, 0, 0);
+        }
+        /* os 3 botoes (mestrado, l e e)*/
+        .but{
+            margin-left: 16%;
+            margin-top: 2%;
+            height:50px;
+            width: 150px;
+            border: none;
+            background-color:  rgb(255, 96, 96);
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+        .but:hover{
+        background: rgb(0, 116, 224);
+        }
+        /* outro box que tem conteudo*/
+        .box4{
+            margin-top: 5%;
+        
+            width: 100%;
+
+        
+        }
+        .titulo-faculdade{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            margin-top: 3%;
+            margin-left: 1%;
+            color: rgb(255, 96, 96);  /*cor vermelho claro ou color red light*/
+        }
+
+        .texto-F{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            margin-top: 3%;
+            margin-left: 2%;
+            color: rgb(0, 62, 119); /*cor azul escuro ou color dark blue*/
+        }
+
+        .galeria{
+            width: 100%;
+            height: 100vh;
+            background-image: url('fundo/111.webp'); /* outra forma de coloca a image*/
+            justify-content: center;
+            background-position: center;
+            background-size: cover;
+        
+        }
+        
+        .galeria::before{
+          
+            background-color: black;
+            opacity: 0.7;
+        }
+        .TITULO-GALERIA{
+            font-size: 20px;
+            color: rgb(0, 62, 119);
+          
+            margin-left: 35%;
+        }
+        .img01{
+            width: 260px;
+            height: 180px;
+        }
+        /*part of the slider*/
+        .container{
+            margin: 0 auto;
+            margin-top:20px;
+            position: relative;
+            width: 70%;
+            height: 5%;
+            padding-bottom: 40%;
+            background: #22438c;
+            border: solid 10px rgb(255, 96, 96);  
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .i1{
+            margin-left: 5%;
+            margin-top: 2%;
+            width: 400px;
+            height: 300px;
+            justify-content: center;
+            background-position: center;
+            background-size: cover;
+            background-image: url('in/abstract-blur-and-defocused-bookshelf-in-library.jpg');
+        }
+        .i2{
+            margin-left: 6%;
+            width: 400px;
+            height: 300px;
+            background: #232323;
+            justify-content: center;
+            background-position: center;
+            background-size: cover;
+            background-image: url('in/img\ \(1\).jfif');
+        }
+        .i3{
+            margin-left: 3%;
+            width: 400px;
+            height: 300px;
+            background-image: url('in/cheerful-mood-group-of-people-at-business-conference-in-modern-classroom-at-daytime\ \(3\).jpg');
+            justify-content: center;
+            background-position: center;
+            background-size: cover;
+        }
+        .i4{
+            margin-left: 5%;
+            margin-bottom: 15%;
+            width: 400px;
+            height: 300px;
+            background-image: url('in/img\ \(4\).jfif');
+            justify-content: center;
+            background-position: center;
+            background-size: cover;
+        }
+        .box6{
+     
+            width: 100%;
+            height: 300px;
+            background: #22438c;
+        }
+        .sub{
+               margin-left: 5%;
+            margin-left: 5%;
+            font-size: 25px;
+            color: #fff;
+        }
+        .frase{
+            margin-left: 5%;
+            margin-top: 1%;
+            font-size: 15px;
+            color: #fff;
+        }
+        .nome{
+            margin-left: 5%;
+            margin-top: 1%;
+            font-size: 15px;
+            color: #fff;
+        }
+        .email{
+            margin-left: 5%;
+            margin-top: 1%;
+            font-size: 15px;
+            color: #fff;
+        }
+        .botoes{
+            margin-left: 5%;
+            margin-top: 1%;
+            height:30px;
+            width: 70px;
+            border: none;
+            background-color:  rgb(255, 96, 96);
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            border-radius: 10%;
+        }
+        .input1{
+            margin-left: 5%;
+            margin-top: 1%;
+        }
+        .div{
+            width: 100%;
+            height: 1vh;
+            background-color:  rgb(255, 255, 255);
+        }
+        .div2{
+            width: 100%;
+            height: 1vh;
+            background-color:  #22438c;
+        }
+
+        .box7{
+            width: 100%;
+            height: 500px;
+            background:  rgb(255, 96, 96); rgb(255, 96, 96);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .b1{
+            width: 500px;
+            height: 500px;
+            background:  rgb(255, 96, 96);
+        }
+        .b2{
+            width: 500px;
+            height: 500px;
+            background:  rgb(255, 255, 255);
+        }
+        .b3{
+            width: 519px;
+            height: 500px;
+            background:    #22438c;}
+            .frase1{
+                margin-top: 2%;
+                font-size: 20px;
+                color: #fff;
+            }
+            .frase2{
+                margin-top: 11%;
+                margin-left: 2%;
+                font-size: 28px;
+                color:#22438c;
+            }
+
+            .tex{
+                margin-left: 2%;
+                margin-top: 7%;
+                font-size: 16px;
+                color: #22438c;
+
+            }
+            .frase3{
+                margin-top: 11%;
+                margin-left: 2%;
+                font-size: 28px;
+                color: rgb(255, 255, 255);
+            }
+            .tex2{
+                margin-left: 2%;
+                margin-top: 7%;
+                font-size: 16px;
+                color: rgb(255, 255, 255);
+            }
+            .fa-instagram{
+                margin-top: 2%;
+                font-size: 30px;
+                margin-left: 2%;
+                color: rgb(255, 255, 255);
+            }
+            .fa-facebook{margin-top: 2%;  margin-left: 2%;
+                color: rgb(255, 255, 255);
+                font-size: 30px;
+            }
+            .fa-youtube{margin-top: 2%;  margin-left: 2%;
+                color: rgb(255, 255, 255);
+                font-size: 30px;
+            }
+            .box8{
+                width: 100%;
+                height: 5vh;
+                background-color:  #22438c;
+            }
+            .copy{
+                margin-left: 25%;
+           
+                font-size: 16px;
+                color: rgb(255, 255, 255);
+            }
